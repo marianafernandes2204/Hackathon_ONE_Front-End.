@@ -10,23 +10,23 @@
 ### 1. 🧠 Camada de Inteligência e Dados
 O coração do projeto, onde reside o conhecimento estatístico.
 * **`.onnx` / `.pkl`**: Modelos treinados de Machine Learning. O formato ONNX é utilizado para garantir execução de baixa latência no ambiente de produção.
-  
+
 * **`clients.json`**: Base de dados local (mock) simulando a resposta do banco de dados com 8.000 registros.
-  
+
 * **`metrics.json`**: Relatório de performance do modelo **Regressão Logística com SMOTE**, servindo de base para os gráficos de confiança da IA.
-  
+
 * **`contrato_api.json`**: Documentação técnica que define o formato de troca de dados entre o Frontend e o Backend.
 
 ### 2. ⚙️ Lógica de Negócio e Serviços
 Camada intermediária que prepara os dados para a interface.
 * **`src/data/`**: Contém scripts de serviço ( `clients.js`, `metrics.js`) que filtram, formatam e limpam os dados brutos antes de chegarem à tela.
-  
+
 * **`src/hooks/`**: Custom Hooks (`useClients.js`, `useData.js`) que gerenciam o estado global, controle de carregamento (*loading*) e tratamento de erros.
 
 ### 3. 🖼️ Interface Visual e Páginas
 A experiência do usuário e a visualização dos insights.
 * **`src/pages/Dashboard.jsx`**: O orquestrador da visualização, organizando o layout principal e a distribuição das informações.
-  
+
 * **`src/components/`**: Peças modulares e reutilizáveis:
     * `Charts.jsx`: Visualização gráfica de tendências de Churn.
     * `MetricCard.jsx`: Indicadores rápidos de alta visibilidade.
@@ -36,19 +36,19 @@ A experiência do usuário e a visualização dos insights.
 ### 4. 🎨 Estética e Padronização
 Garantia de consistência visual e qualidade de código.
 * **`index.css`**: Estilos de base e reset de CSS para garantir consistência entre navegadores.
-  
+
 * **`theme.css`**: Definição de variáveis de cores e identidade visual (Design System).
-  
+
 * **`App.css`**: Regras de layout e estrutura de grid do container principal
-  
+
 * **`eslint.config.js`**: Padronização de código para manter o projeto limpo e legível.
 
 ### 5. 🛠️ Infraestrutura e Ambiente
 Configurações para desenvolvimento e deploy.
 * **`.venv`**: Ambiente virtual isolado para execução dos scripts de IA em Python.
-  
+
 * **`.gitignore`**: Proteção do repositório, impedindo o envio de dependências pesadas (`node_modules`. `.venv`, `.vscode`), arquivos de sistema e segredos.
-  
+
 * **`dist/`**: Versão final otimizada para publicação (Build).
 
 ---
@@ -61,7 +61,7 @@ Configurações para desenvolvimento e deploy.
 - **Python** (Backend e Treino do Modelo)
 
 > *Este projeto foi desenvolvido seguindo boas práticas de "Separation of Concerns" (Separação de Responsabilidades), garantindo facilidade na manutenção e escalabilidade técnica.*
-> 
+>
 ## 📁 Estrutura de Pastas
 ```text
 Front-End/

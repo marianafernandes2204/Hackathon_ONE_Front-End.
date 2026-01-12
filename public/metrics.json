@@ -17,19 +17,19 @@
             "value": 0.1217
         },
         {
-            "name": "gender",
+            "name": "Gênero",
             "value": 0.077
         },
         {
-            "name": "device_type",
+            "name": "Tipo de Dispositivo",
             "value": 0.0687
         },
         {
-            "name": "Intensidade de Ads",
+            "name": "Intensidade de Anúncios",
             "value": 0.0623
         },
         {
-            "name": "Alta Frustração",
+            "name": "Índice de Frustração",
             "value": 0.0585
         }
     ]

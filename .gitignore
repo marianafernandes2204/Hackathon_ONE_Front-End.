@@ -7,10 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build
 dist
 dist-ssr
+build
+
+# Local env files
 *.local
+.env
+.env.local
+.env.*.local
+.env.*
 
 # Editor directories and files
 .vscode/*
@@ -23,11 +33,13 @@ dist-ssr
 *.sln
 *.sw?
 
-# Python (Back-End)
-.venv/
-venv/
-ENV/
-env/
-__pycache__/
+# Arquivos que não devem ir para produção
+*.pkl
+*.onnx
+*.ipynb
+
+# Cache
+.cache
+.parcel-cache
 *.py[cod]
 *$py.class
