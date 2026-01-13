@@ -60,7 +60,9 @@ ChurnInsight Frontend é uma aplicação React que consome a API ML backend para
         │  • /predict/batch                │
         │  • /clients                      │
         │  • /clients/predictions          │
-        │  • /dashboard/metrics            │            └──────────────────────────────────┘
+        │  • /dashboard/metrics            │            
+        └──────────────────────────────────┘
+        
 ```
 
 ---
