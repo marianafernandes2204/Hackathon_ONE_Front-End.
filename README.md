@@ -53,14 +53,14 @@ ChurnInsight Frontend é uma aplicação React que consome a API ML backend para
                        │ HTTP Basic Auth
                        ▼
         ┌──────────────────────────────────┐
-        │  ChurnInsight Backend API         │
-        │  (Spring Boot - Port 10808)       │
-        │  • /predict                       │
-        │  • /stats                         │
-        │  • /predict/batch                 │
-        │  • /clients                       │
-        │  • /clients/predictions           │
-        └──────────────────────────────────┘
+        │  ChurnInsight Backend API        │
+        │  (Spring Boot - Port 10808)      │
+        │  • /predict                      │
+        │  • /stats                        │
+        │  • /predict/batch                │
+        │  • /clients                      │
+        │  • /clients/predictions          │
+        │  • /dashboard/metrics            │            └──────────────────────────────────┘
 ```
 
 ---
